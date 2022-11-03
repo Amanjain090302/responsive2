@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+#box {
+    background-color: blue;
+    padding: 2px;
+    border: 5px solid black;
+    margin: 50px;
+    width: 400px;
+}
+
+#box2 {
+    background-color: blue;
+    padding: 2px;
+    border: 5px solid black;
+    margin: 50px;
+    width: 400px;
+}
+
+#h1 .topic {
+    border: 2px solid black;
+}
+
+#content {
+    background-color: green;
+}
+
+#content2 {
+    background-color: red;
+}
+
+#content3 {
+    background-color: rgb(242, 255, 0);
+}
+
+@media(min-width:992px) {
+    #box {
+        width: 400px;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    #box {
+        width: 300px;
+    }
+    #box2 {
+        width: 800px;
+    }
+}
+
+@media(max-width:767px) {
+    #box {
+        width: 90%;
+    }
+    #box2 {
+        width: 90%;
+    }
+}
